@@ -10,6 +10,10 @@
 :project_id: gs-vault-config
 This guide walks you through the process of using https://cloud.spring.io/spring-cloud-vault/[Spring Cloud Vault] to build an application that retrieves its configuration properties from https://www.vaultproject.io[HashiCorp Vault].
 
+== IMPORTANT NOTE
+
+Spring Cloud is not compatabile with Spring Boot latest version. So, We are using Spring Boot Version '2.3.2.RELEASE' and Spring Cloud Version 'Greenwich.SR2' as specified in [Getting Started Guide](https://spring.io/guides/gs/vault-config/) and [Github Repo](https://github.com/spring-guides/gs-vault-config)
+
 == What you'll build
 
 You'll start up Vault, store configuration properties inside Vault, build a Spring application and connect it with Vault.
